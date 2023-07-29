@@ -1,18 +1,22 @@
 {
   "name": "buibr/laravel-helpers",
-  "description": "helpers for laravel",
+  "description": "Laravel helpers",
   "type": "library",
   "authors": [
     {
       "name": "Burhan Ibrahimi",
-      "email": "mail@buib.me"
+      "email": "mail@buib.me",
+      "homepage": "https://www.buib.me",
+      "role": "creator"
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=8.2"
+  },
   "autoload": {
     "psr-4": {
-      "NRB\\Helpers\\": "/"
+      "Bi\\Helpers\\": "/src"
     },
     "files": [
       "helpers.php",
