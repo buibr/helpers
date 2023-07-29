@@ -19,8 +19,8 @@
       "Bi\\Helpers\\": "/src"
     },
     "files": [
-      "helpers.php",
-      "balde-helpers.php"
+      "files/helpers.php",
+      "files/balde-helpers.php"
     ]
   }
 }
