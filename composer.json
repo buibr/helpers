@@ -1,6 +1,6 @@
 {
-  "name": "buibr/laravel-helpers",
-  "description": "Laravel helpers",
+  "name": "buibr/my-laravel-helpers",
+  "description": "Laravel helpers ",
   "type": "library",
   "authors": [
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace MidX\Core\Traits;
+namespace Bi\Traits\Enum;
 
 trait ArrayableEnumTrait
 {
