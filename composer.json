@@ -1,0 +1,22 @@
+{
+  "name": "buibr/laravel-helpers",
+  "description": "helpers for laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Burhan Ibrahimi",
+      "email": "mail@buib.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "NRB\\Helpers\\": "/"
+    },
+    "files": [
+      "helpers.php",
+      "balde-helpers.php"
+    ]
+  }
+}
