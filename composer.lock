@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1eb275a0eaaca81e252028d2a502aba",
+    "content-hash": "406316ba00327349f572bbde9430f189",
     "packages": [
         {
             "name": "illuminate/container",
@@ -52,16 +52,16 @@
         },
         {
             "name": "larvel/framework",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/larvel.git",
-                "reference": "6ab48f5b1203d0eb6d0efe60e15ce6800992817c"
+                "reference": "47bf1ebebcf92922fd1633c72c876abf342c4e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/larvel/zipball/6ab48f5b1203d0eb6d0efe60e15ce6800992817c",
-                "reference": "6ab48f5b1203d0eb6d0efe60e15ce6800992817c",
+                "url": "https://api.github.com/repos/fideloper/larvel/zipball/47bf1ebebcf92922fd1633c72c876abf342c4e5e",
+                "reference": "47bf1ebebcf92922fd1633c72c876abf342c4e5e",
                 "shasum": ""
             },
             "require": {
@@ -70,6 +70,7 @@
                 "symfony/http-kernel": "~2.5",
                 "symfony/routing": "~2.5"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -91,7 +92,7 @@
                 "issues": "https://github.com/fideloper/larvel/issues",
                 "source": "https://github.com/fideloper/larvel/tree/master"
             },
-            "time": "2014-10-29T21:36:16+00:00"
+            "time": "2014-10-29T21:53:44+00:00"
         },
         {
             "name": "psr/log",
@@ -869,12 +870,12 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "larvel/framework": 0
+        "larvel/framework": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.2"
+        "php": "^8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
