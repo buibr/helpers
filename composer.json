@@ -13,7 +13,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.2",
-    "larvel/framework": "^10.0"
+    "larvel/framework": "*"
   },
   "autoload": {
     "psr-4": {
