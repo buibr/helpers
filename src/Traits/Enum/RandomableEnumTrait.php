@@ -1,6 +1,6 @@
 <?php
 
-namespace Bi\Traits\Enum;
+namespace Bi\Helpers\Traits\Enum;
 
 trait RandomableEnumTrait
 {
