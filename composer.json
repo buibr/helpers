@@ -12,11 +12,12 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=8.2"
+    "php": "^8.2",
+    "larvel/framework": "@stable"
   },
   "autoload": {
     "psr-4": {
-      "Bi\\Helpers\\": "/src"
+      "Bi\\": "/src"
     },
     "files": [
       "files/helpers.php",
