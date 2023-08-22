@@ -58,12 +58,15 @@ if (!function_exists('my_is_enum')) {
      *
      * @param mixed $value
      * @return bool
-     * @throws ReflectionException
      */
     function my_is_enum(mixed $value): bool
     {
-        $reflection = new ReflectionClass($value);
-        return $reflection->isEnum();
+        try {
+            $reflection = new ReflectionClass($value);
+            return $reflection->isEnum();
+        } catch (\Throwable) {
+            return false;
+        }
     }
 }
 
