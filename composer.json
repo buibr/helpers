@@ -20,7 +20,8 @@
     },
     "files": [
       "files/helpers.php",
-      "files/balde-helpers.php"
+      "files/balde-helpers.php",
+      "files/response.php"
     ]
   }
 }
