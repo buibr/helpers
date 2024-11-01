@@ -23,5 +23,8 @@
       "files/balde-helpers.php",
       "files/response.php"
     ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0@dev"
   }
 }
