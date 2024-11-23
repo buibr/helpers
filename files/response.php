@@ -27,5 +27,5 @@ function delete_json_success($id): \Illuminate\Http\JsonResponse
     return response()->json([
         'success' => true,
         'id'      => $id,
-    ]);
+    ], 204);
 }
