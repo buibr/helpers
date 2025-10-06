@@ -8,7 +8,7 @@ if (!function_exists('my_route_active')) {
      *
      * @return string|null
      */
-    function my_route_active(string $route, string $active = 'active', ?string $notActive = null)
+    function my_route_active(string $route, string $active = 'active', ?string $notActive = null): ?string
     {
         return \Illuminate\Support\Facades\Request::routeIs($route) ? $active : ($notActive ? $notActive : null);
     }
@@ -22,7 +22,7 @@ if (!function_exists('my_date_localized')) {
 }
 
 if (!function_exists('my_column_sort_link')) {
-    function my_column_sort_link($value, $key = 'sort')
+    function my_column_sort_link($value, $key = 'sort'): ?string
     {
         if (!request()->input($key, null)) {
             return \Illuminate\Support\Facades\Request::fullUrlWithQuery(['sort' => $value, $key]);
