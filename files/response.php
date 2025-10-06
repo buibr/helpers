@@ -22,12 +22,14 @@ function success_json_response(...$arguments): \Illuminate\Http\JsonResponse
     return response()->json($data);
 }
 
-function delete_json_success($id, ...$arguments = []): \Illuminate\Http\JsonResponse
+function delete_json_success($id, ...$arguments): \Illuminate\Http\JsonResponse
 {
     $data = ['success' => true, 'id' => $id];
 
-    foreach ($arguments as $argument => $value) {
-        $data = array_merge($data, $value);
+    if (!empty($arguments)) {
+        foreach ($arguments as $argument => $value) {
+            $data = array_merge($data, $value);
+        }
     }
 
     return response()->json($data, 204);
